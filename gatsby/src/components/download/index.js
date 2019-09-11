@@ -10,7 +10,7 @@ const Download = ({ file }) => {
       >
         {file}
 
-        <a href={downloadPath}
+        <a href={`${downloadPath}.txt`}
           download={file}
         >
           <button
